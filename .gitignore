@@ -1,0 +1,66 @@
+# ===================
+# Node / React (frontend)
+# ===================
+node_modules/
+dist/
+.vite/
+.env
+.env.local
+*.log
+
+# ===================
+# Python / Flask (backend)
+# ===================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+instance/
+*.sqlite3
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+
+# ===================
+# OS + IDE garbage
+# ===================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ===================
+# MongoDB dumps/backups (optional)
+# ===================
+dump/
+*.bson
+*.json
+
+# ===================
+# Logs / misc
+# ===================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pip-log.txt
+coverage/
+*.cover
+*.pid
+*.seed
+*.orig
+
+# ===================
+# Test cache / coverage
+# ===================
+htmlcov/
+.tox/
+.nox/
+.cache/
+pytest_cache/

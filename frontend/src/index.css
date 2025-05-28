@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.custom-scrollbar::-webkit-scrollbar {
+    width: 6px; /* makes it thin */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #111827; /* Tailwind's gray-900 */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #9333ea; /* Tailwind's purple-600 */
+    border-radius: 9999px; /* super rounded */
+    border: 1px solid #111827; /* optional: blends thumb into track */
+  }
+  
+  /* Firefox support */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #9333ea #111827;
+  }
+  
